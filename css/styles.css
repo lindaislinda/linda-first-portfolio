@@ -1,0 +1,204 @@
+/* Color pallete:
+#4C3A51   #B25068
+#774360   #E7AB79*/
+.top-container {
+  background-color: #FDF6EC;
+  height: 555px;
+  text-align: center;
+  padding: 20px;
+}
+.top-container-left {
+  width : 35%;
+  height: 555px;
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 200px;
+  padding-top: 50px
+}
+.top-container-right {
+  position: absolute;
+  height: 555px;
+  width: 50%;
+  right: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+/* .skill-row {
+  width: 50%
+} */
+.cloud {
+  width: 100px;
+  color: white;
+  filter: invert(30%) sepia(3%) saturate(3207%) hue-rotate(320deg) brightness(95%) contrast(80%);
+  position: relative;
+  left: 200px
+}
+.cloud2 {
+  left: 300px;
+}
+.cloud3 {
+  top: 180px;
+  left: 100px;
+}
+.first-image{
+  height: 400px;
+}
+
+h1 {
+  font-family: "Sacramento","Georgia", serif;
+  color: #B25068;
+  margin-top: 0px;
+  font-size: 500%;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+
+h1:hover {
+  color: #FF9F29
+}
+
+h2 {
+  font-family: "Sacramento","Georgia", serif;
+  color: #B25068;
+  font-size: 400%;
+  margin: 10px;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #B25068;
+}
+
+.hello:hover {
+
+}
+.courier {
+  font-family: "Courier New", Courier;
+  color: #4C3A51;
+  font-size: 200%;
+  margin-top: 0px
+}
+
+body {
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.middle-container {
+  padding: 100px;
+  padding-top: 80px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.bottom-container {
+  padding: 50px 50px 20px 50px;
+  background-color: #B25068;
+}
+
+.introduction {
+  width: 80%;
+  margin: auto;
+}
+.get-in-touch {
+  padding: 30px;
+  padding-bottom: 0
+}
+.get-in-touch-des {
+  text-align: center;
+}
+.get-in-touch-des2 {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+ .web_ {
+   border-radius: 50%
+ }
+ p {
+   font-size: 20px;
+   text-align: justify;
+   line-height: 1.5
+ }
+.skill-image1 {
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.skill-image2 {
+  float: right;
+  margin-left: 50px;
+  position: relative;
+  bottom: -20px;
+}
+.my_skills {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+hr {
+  background-color: none;
+  border-style: none;
+  /* height: 2px; */
+  border-top-style: dotted;
+  border-top-color: #F2D7D9;
+  border-width: 5px;
+  width: 10%;
+  margin: 20px auto;
+}
+.btn {
+  background: #B25068;
+  background-image: -webkit-linear-gradient(top, #B25068, #774360);
+  background-image: -moz-linear-gradient(top, #B25068, #774360);
+  background-image: -ms-linear-gradient(top, #B25068, #774360);
+  background-image: -o-linear-gradient(top, #B25068, #774360);
+  background-image: linear-gradient(to bottom, #B25068, #774360);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family:"Ubuntu", sans-serif ;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #FF9F29;
+  background-image: -webkit-linear-gradient(top, #FF9F29, #FF8C32);
+  background-image: -moz-linear-gradient(top, #FF9F29, #FF8C32);
+  background-image: -ms-linear-gradient(top, #FF9F29, #FF8C32);
+  background-image: -o-linear-gradient(top, #FF9F29, #FF8C32);
+  background-image: linear-gradient(to bottom, #FF9F29, #FF8C32);
+  text-decoration: none;
+}
+
+.footer-link{
+  margin: auto 30px auto 30px;
+  font-size: 20px;
+  color: #774360;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-name {
+  font-family: Georgia, serif;
+  text-align : center;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  font-size: 0.75rem;
+}
+.about-me {
+  padding: 30px;
+  padding-bottom: 0px;
+}
